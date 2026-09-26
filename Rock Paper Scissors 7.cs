@@ -226,37 +226,37 @@ for (int i = 3; i > 0; i--)
 
     else if (player1choice == 3 && (player2choice == 4))
     {
-        Console.WriteLine("the scissors smelt away");
+        Console.WriteLine("\n the scissors smelt away");
         player1Wins++;
     }
     else if (player1choice == 3 && (player2choice == 5))
     {
-        Console.WriteLine("more sponges but less absorbed water");
+        Console.WriteLine("\n more sponges but less absorbed water");
         player1Wins++;
     }
     else if (player1choice == 3 && (player2choice == 6))
     {
-        Console.WriteLine("The metal turns a deep brown before forming holes and crumbling");
+        Console.WriteLine("\n The metal turns a deep brown before forming holes and crumbling");
         player2Wins++;
     }
     else if (player1choice == 3 && (player2choice == 7))
     {
-        Console.WriteLine("Like theres nothing even there");
+        Console.WriteLine("\n Like theres nothing even there");
         player1Wins++;
     }
     else if (player1choice == 4 && (player2choice == 1))
     {
-        Console.WriteLine("the rock now can cook its own food");
+        Console.WriteLine("\n the rock now can cook its own food");
         player2Wins++;
     }
     else if (player1choice == 4 && (player2choice == 2))
     {
-        Console.WriteLine("Hope nothing important was on there...");
+        Console.WriteLine("\n Hope nothing important was on there...");
         player1Wins++;
     }
     else if (player1choice == 4 && (player2choice == 3))
     {
-        Console.WriteLine("I don't think those are being picked back up");
+        Console.WriteLine("\n I don't think those are being picked back up");
         player1Wins++;
     }
     else if (player1choice == 4 && (player2choice == 4))
@@ -265,18 +265,140 @@ for (int i = 3; i > 0; i--)
     }
     else if (player1choice == 4 && (player2choice == 5))
     {
-        Console.WriteLine("Sorry not enough water to avoid a steaming");
+        Console.WriteLine("\n Sorry not enough water to avoid a steaming");
         player1Wins++;
     }
     else if (player1choice == 4 && (player2choice == 6))
     {
-        Console.WriteLine("Firefighters figured that out a long time ago");
+        Console.WriteLine("\n Firefighters figured that out a long time ago");
         player2Wins++;
     }
     else if (player1choice == 4 && (player2choice == 7))
     {
-        Console.WriteLine("Didn't burn bright enough to handle fanning");
+        Console.WriteLine("\n Didn't burn bright enough to handle fanning");
         player2Wins++;
+    }
+
+else if (player1choice == 5 && (player2choice == 1))
+    {
+        Console.WriteLine("\n eww the wine being squeezed out makes me feel squeemish");
+        player2Wins++;
+    }
+
+else if (player1choice == 5 && (player2choice == 2))
+       {
+          Console.WriteLine("\n that paper is never moving from that spot as a single sheet again");
+          player1Wins++;
+       }
+
+else if (player1choice == 5 && (player2choice == 3))
+       {
+          Console.WriteLine("\n too bad you can't regenerate like Robert The Sponge");
+          player2Wins++;
+       }
+
+else if (player1choice == 5 && (player2choice == 4))
+       {
+          Console.WriteLine("\n huh, maybe being soaked in gas was a bad idea");
+          player2Wins++;
+       }
+
+else if (player1choice == 5 && (player2choice == 5))
+       {
+          Console.WriteLine("\n WE SHALL DRINK AN OCEAN OH BROTHER");
+          player2Wins++;
+       }
+
+else if (player1choice == 5 && (player2choice == 6))
+       {
+          Console.WriteLine("\n Nice and hydrated now");
+          player2Wins++;
+       }
+
+else if (player1choice == 5 && (player2choice == 7))
+       {
+          Console.WriteLine("\n That got me nice and dry to soak up something else ^3^");
+          player2Wins++;
+       }
+
+else if (player1choice == 6 && (player2choice == 1))
+    {
+        Console.WriteLine("\n WHOAH IS THAT A SHIPROCK!?");
+        player1Wins++;
+    }
+else if (player1choice == 6 && (player2choice == 2))
+    {
+        Console.WriteLine("\n I believe I can soar \n I see me running through that open door \n I believe I can fly \n I believe I can fly \n I believe I can fly (whoo)");
+        player1Wins++;
+    }
+else if (player1choice == 6 && (player2choice == 3))
+    {
+        Console.WriteLine("\n The great Yamato was secretly a scissors blade, and they had two!");
+        player1Wins++;
+    }
+else if (player1choice == 6 && (player2choice == 4))
+    {
+        Console.WriteLine("\n let the flames die");
+        player1Wins++;
+    }
+else if (player1choice == 6 && (player2choice == 5))
+    {
+        Console.WriteLine("\n GULP GULP GULP");
+        player2Wins++;
+    }
+else if (player1choice == 6 && (player2choice == 6))
+    {
+        Console.WriteLine("\n those windmill blades look like car tires!");
+        
+    }
+else if (player1choice == 6 && (player2choice == 7))
+    {
+        Console.WriteLine("\n the mist is moving fast this London morn");
+        player1Wins++;
+    }
+    else if (player1choice == 7 && (player2choice == 1))
+    {
+    Console.WriteLine("\n now you have a mushrock, bet you could get more for a sate part");
+    player1Wins++;
+
+    }
+
+    else if (player1choice == 7 && (player2choice == 2))
+    {
+    Console.WriteLine("\n that paper airplane is really flying!");
+    player2Wins++;
+    
+    }
+
+    else if (player1choice == 7 && (player2choice == 3))
+    {
+    Console.WriteLine("\n cut through like nothing was even there");
+    player2Wins++;
+    
+    }
+    else if (player1choice == 7 && (player2choice == 4))
+    {
+    Console.WriteLine("\n out like campfire come morning");
+    player1Wins++;
+    
+    }
+    else if (player1choice == 7 && (player2choice == 5))
+    {
+    Console.WriteLine("\n The sponge litterally ate that");
+    player2Wins++;
+    
+    }
+    else if (player1choice == 7 && (player2choice == 6))
+    {
+    Console.WriteLine("\n why's wind so humid and muggy?");
+    player1Wins++;
+    
+    }
+    else if (player1choice == 7 && (player2choice == 7))
+    {
+    Console.WriteLine("\n Can you paint with all the colors of the wind?");
+    
+    
     }
 
 }
