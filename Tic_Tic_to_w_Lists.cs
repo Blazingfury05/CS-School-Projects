@@ -20,9 +20,9 @@ string player1 = Console.ReadLine();
 Console.WriteLine($"Great to meet you {player1}, and who is Player2?");
 string player2 = Console.ReadLine();
 Console.WriteLine($"Great having you as well {player2}, now lets begin!");
-Console.WriteLine("You will Press the number key associated with your desired spot to play your turn")
+Console.WriteLine("You will Press the number key associated with your desired spot to play your turn");
 
-for (int i = 5; i > 0; i--)
+for (int i = 10; i > 0; i--)
 {
 PrintBoard(tictacboard);
 Console.WriteLine("Choose a Cell");
@@ -36,7 +36,7 @@ tictacboard[moveNumber] = token;
 
 
 
-string token = "O";
+//string token = "O" I can't make it that simple but it is the idea
 };
 
 // cats game, declaration of winner, etc happen after the loop
