@@ -29,14 +29,16 @@ print("Total cards:", len(cards))
 gamemode = int(input("How many human players? "))
 
 players = []
-if len(players) < 4:
-    players.append("CPU")
 
 
 for player_number in range(gamemode):
     name = input(f"Who is Player {player_number + 1}?\n")
     players.append(name)
     print("players")
+
+desired_players = int(input("How many total players are desired?"))
+while len(players) < desired_players:
+    players.append("CPU")
 
 
 player_hands = [[], [], [], []]
