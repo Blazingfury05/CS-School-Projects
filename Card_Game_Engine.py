@@ -53,6 +53,10 @@ def deal_cards(cards, player_hands, cards_per_player):
         for player_number in range(len(player_hands)):
             player_hands[player_number].append(cards.pop())
 
+def player_deal(cards, player_hands, player_number):
+    player_hands[player_number].append(cards.pop())
+    #adds a single card to the players hand
+
 deal_cards(cards, player_hands, cards_per_player)
 
 print(player_hands[0])
