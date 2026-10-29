@@ -2,8 +2,12 @@ import random
 
 import turtle
 
+#Game specific tweaks
 joker_card = False
 
+cards_per_player = 5
+#End of specfic teaks
+    
 suits = ["♥", "♠", "♦", "♣"]
 
 ranks = [
@@ -41,5 +45,14 @@ while len(players) < desired_players:
     players.append("CPU")
 
 
-player_hands = [[], [], [], []]
+player_hands = [[] for _ in range(desired_players)]
 print(players)
+
+def deal_cards(cards, player_hands, cards_per_player):
+    for card_number in range(cards_per_player):
+        for player_number in range(len(player_hands)):
+            player_hands[player_number].append(cards.pop())
+
+deal_cards(cards, player_hands, cards_per_player)
+
+print(player_hands[0])
